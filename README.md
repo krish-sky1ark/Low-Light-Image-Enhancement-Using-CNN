@@ -89,7 +89,7 @@ For reference, the model's architecture and further details can be found at [Kag
 2. Upload the dataset mentioned in main.ipynb file to Google Drive.
 3. Change the directory to
    ```bash
-   cd <Low-Light-Image-Enhancement-Using-CNN>
+   cd Low-Light-Image-Enhancement-Using-CNN
 5. Run the main.ipynb file
    ```bash
    jupyter notebook main.ipynb
