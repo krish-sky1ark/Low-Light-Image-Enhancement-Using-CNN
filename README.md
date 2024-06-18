@@ -94,4 +94,4 @@ For reference, the model's architecture and further details can be found at [Kag
    ```bash
    jupyter notebook main.ipynb
 7. Comment out the model formation and training part in case you want to use the pre-trained model denoising_model.h5
-8. Train the Model and the trained model to enhance low-light images.
+8. Train the Model and use the trained model to enhance low-light images.
