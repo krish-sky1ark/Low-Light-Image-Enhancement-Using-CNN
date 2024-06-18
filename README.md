@@ -80,11 +80,18 @@ The average PSNR value achieved was 27.06695, indicating significant improvement
 
 For reference, the model's architecture and further details can be found at [Kaggle Notebook](https://www.kaggle.com/code/basu369victor/low-light-image-enhancement-with-cnn).
 
-## Usage
+## Usage Instructions
 
-1. Clone the repository: `git clone <https://github.com/krish-sky1ark/Low-Light-Image-Enhancement-Using-CNN>`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/krish-sky1ark/Low-Light-Image-Enhancement-Using-CNN
+
 2. Upload the dataset mentioned in main.ipynb file to Google Drive.
-3. Change the directory to 'cd <Low-Light-Image-Enhancement-Using-CNN>'
-4. Run the main.ipynb file 'python <main.ipynb>'
-5. Comment out the model formation and training part in case you want to use the pre-trained model denoising_model.h5
-6. Train the Model and the trained model to enhance low-light images.
+3. Change the directory to
+   ```bash
+   cd <Low-Light-Image-Enhancement-Using-CNN>
+5. Run the main.ipynb file
+   ```bash
+   jupyter notebook main.ipynb
+7. Comment out the model formation and training part in case you want to use the pre-trained model denoising_model.h5
+8. Train the Model and the trained model to enhance low-light images.
